@@ -1,0 +1,631 @@
+﻿<Window x:Class="Risk.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Risk"
+        mc:Ignorable="d"
+        Title="MainWindow" MinWidth="800" Height="770" Width="1250" WindowStartupLocation="CenterScreen" WindowState="Maximized" SizeChanged="Window_SizeChanged"  WindowStyle="None" >
+    
+    <Window.Resources>
+        <Style TargetType="Image" x:Key="card">
+            <Setter Property="Width" Value="100"/>
+            <Setter Property="Cursor" Value="cursor/SC2-hyperlink.cur"/>
+
+
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Effect" >
+                        <Setter.Value>
+                            <DropShadowEffect ShadowDepth="6"/>
+                        </Setter.Value>
+
+                    </Setter>
+                </Trigger>
+            </Style.Triggers>
+                      
+ 
+        </Style>
+        <Style TargetType="TextBlock" >
+            <Setter Property="FontFamily" Value="font/#A Amine"></Setter>
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="Padding" Value="2"/>
+            
+
+
+        </Style>
+        
+            <Style TargetType="Image" x:Key="Dicepic">
+
+            <Setter Property="Effect" >
+                <Setter.Value>
+                    <DropShadowEffect ShadowDepth="6"/>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Width" Value="50"/>
+            <Setter Property="Height" Value="50"/>
+            <Setter Property="Margin" Value="0,5"/>
+
+        </Style>
+        <!--Style for label in canvas-->
+        <!--#region -->
+        <Style  TargetType="Label">
+
+            <Setter Property="Template">
+                <Setter.Value>
+
+                    <ControlTemplate TargetType="Label">
+                        <Border Name="border" 
+                            BorderThickness="2"
+                            Padding="6,0" 
+                              
+                                HorizontalAlignment="Center"
+                            BorderBrush="DarkGray" 
+                            CornerRadius="20" 
+                            Background="{TemplateBinding Background}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="border" Property="BorderBrush" Value="White" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="FontSize" Value="10"/>
+            <Setter Property="Background" Value="#66000000"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="ToolTip" Value="{Binding Name ,RelativeSource={RelativeSource Self}}" />
+            <Setter Property="FontFamily" Value="font/#A Amine"></Setter>
+            <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+
+
+
+
+        </Style>
+        <!--#endregion-->
+
+        <!--Style for button-->
+        <!--#region -->
+        <Style  TargetType="Button" x:Key="circlebutton">
+            <Setter Property="OverridesDefaultStyle" Value="True"/>
+            <Setter Property="Margin" Value="10,10"/>
+            <Setter Property="Template">
+                <Setter.Value>
+
+                    <ControlTemplate TargetType="Button">
+                        <Border Name="border" 
+                            BorderThickness="0"
+                            Padding="4,2" 
+                            BorderBrush="DarkGray" 
+                            CornerRadius="40"  
+                            Background="{TemplateBinding Background}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="border" Property="BorderBrush" Value="White" />
+                                <Setter Property="Effect" >
+                                    <Setter.Value>
+                                        <DropShadowEffect ShadowDepth="6"/>
+                                    </Setter.Value>
+
+                                </Setter>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Effect" >
+                <Setter.Value>
+                    <DropShadowEffect ShadowDepth="2"/>
+                </Setter.Value>
+
+            </Setter>
+            <Setter Property="Cursor" Value="cursor/SC2-hyperlink.cur"/>
+
+
+            <Setter Property="Width" Value="60"></Setter>
+            <Setter Property="Height" Value="60"></Setter>
+            <Setter Property="BorderThickness" Value="0"></Setter>
+
+
+        </Style>
+        <Style  TargetType="Button" x:Key="recbutton">
+            <Setter Property="OverridesDefaultStyle" Value="True"/>
+            <Setter Property="Margin" Value="10,10"/>
+            <Setter Property="Template">
+                <Setter.Value>
+
+                    <ControlTemplate TargetType="Button">
+                        <Border Name="border" 
+                            BorderThickness="0"
+                            Padding="20,10" 
+                            BorderBrush="DarkGray" 
+                             
+                            Background="{TemplateBinding Background}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="border" Property="BorderBrush" Value="White" />
+                                <Setter Property="Effect" >
+                                    <Setter.Value>
+                                        <DropShadowEffect ShadowDepth="6"/>
+                                    </Setter.Value>
+
+                                </Setter>
+                            </Trigger>
+                            <Trigger Property="IsEnabled" Value="False">
+                                <Setter Property="Opacity"
+                                        Value="0.5"></Setter> 
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Effect" >
+                <Setter.Value>
+                    <DropShadowEffect ShadowDepth="2"/>
+                </Setter.Value>
+
+            </Setter>
+            
+            <Setter Property="Background" >
+                <Setter.Value>
+                    <ImageBrush ImageSource="buttons/recbutton.png"/>
+                </Setter.Value>
+
+            </Setter>
+
+            <Setter Property="BorderThickness" Value="0"></Setter>
+            <Setter Property="Foreground" Value="white"></Setter>
+            <Setter Property="FontFamily" Value="font/#A Amine"></Setter>
+            <Setter Property="FontSize" Value="20"></Setter>
+            <Setter Property="FontWeight" Value="bold"></Setter>
+            <Setter Property="Cursor" Value="cursor/SC2-hyperlink.cur"/>
+
+        </Style>
+        <!--#endregion-->
+    </Window.Resources>
+
+    <!--Main StackPanel-->
+    <StackPanel Orientation="Vertical"  Cursor="cursor/SC2-cursor-protoss.cur">
+        <StackPanel.Background>
+            <ImageBrush ImageSource="image/Background2.jpg"/>
+        </StackPanel.Background>
+        <!--first stack panel-->
+        <StackPanel >
+
+
+                <!--Grid for player list and map-->
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="250"/>
+                </Grid.ColumnDefinitions>
+
+                <!-- victory panel-->
+                <Border Name="victorypanel" Grid.Column="0"  VerticalAlignment="Center" HorizontalAlignment="Center" Width="500" Height="430" Panel.ZIndex="6" Padding="50,100,50,10" Visibility="Hidden">
+                    <Border.Background >
+                        <ImageBrush ImageSource="image/bonePaper.png"/>
+                    </Border.Background>
+                    <StackPanel Margin="0.4,0,21.6,68">
+                       
+
+                        <Border Name="p1victoryimage"  Width="100" Height="100" CornerRadius="50" BorderThickness="2">
+                        <Border.Effect>
+                            <DropShadowEffect ShadowDepth="3" BlurRadius="3"/>
+                        </Border.Effect>
+                        <Border.Background>
+                            <ImageBrush ImageSource="avatars/a2.png" ></ImageBrush>
+                        </Border.Background>
+                    </Border>
+                    <TextBlock  Name="p1victoryname" HorizontalAlignment="Center"></TextBlock>
+                        <TextBlock   HorizontalAlignment="Center">برنده شدی سالار</TextBlock>
+                        <Button Style="{StaticResource recbutton}" Width="200" Content="باشه" Click="Ok_Click" />
+
+                    </StackPanel>
+                </Border>
+
+                <!-- dfeated panel-->
+                <Border Name="defeatedpanel" Grid.Column="0"  VerticalAlignment="Center" HorizontalAlignment="Center" Width="500" Height="430" Panel.ZIndex="3" Padding="50,100,50,10" Visibility="Hidden" >
+                    <Border.Background >
+                        <ImageBrush ImageSource="image/bonePaper.png"/>
+                    </Border.Background>
+                    <StackPanel Margin="0.4,0,21.6,68">
+
+
+                        <Border Name="p1defeatedimage"  Width="100" Height="100" CornerRadius="50" BorderThickness="2">
+                            <Border.Effect>
+                                <DropShadowEffect ShadowDepth="3" BlurRadius="3"/>
+                            </Border.Effect>
+                            <Border.Background>
+                                <ImageBrush ImageSource="avatars/a2.png" ></ImageBrush>
+                            </Border.Background>
+                        </Border>
+                        <TextBlock  Name="p1defeatedname" HorizontalAlignment="Center"></TextBlock>
+                        <TextBlock   HorizontalAlignment="Center">انا الله و انا علیه راجعون</TextBlock>
+                        <Button Style="{StaticResource recbutton}" Width="200" Content="باشه" Click="Ok_Click" />
+                    </StackPanel>
+                </Border>
+
+                <!-- card show-->
+                <Border Name="cardshowpanel" Grid.Column="0"  VerticalAlignment="Center" HorizontalAlignment="Center" Width="300" Height="400" CornerRadius="10"  Panel.ZIndex="5" Visibility="Hidden">
+                    <Border.Effect>
+                        <DropShadowEffect/>
+                    </Border.Effect>
+                    <Border.Background>
+                        <ImageBrush ImageSource="image/paper2.jpg">
+                            
+                        </ImageBrush>
+                    </Border.Background>
+                    <Grid>
+                        
+                    <Image Name="cardshowimage" VerticalAlignment="Center"  Width="200"   Source="cards/cavalry.png" ></Image>
+                        <Button Name="cardaccept" HorizontalAlignment="Right" VerticalAlignment="Bottom" Style="{StaticResource recbutton}" Content="باشه" Click="cardaccept_Click"/>
+                    
+                    </Grid>
+
+                </Border>
+
+                <!--transfer panel -->
+                <Border Name="transferpanel" Grid.Column="0"  VerticalAlignment="Center" HorizontalAlignment="Center" Width="500" Height="430" Panel.ZIndex="3" Padding="50,150,50,10" Visibility="Hidden" >
+                      <Border.Background >
+                        <ImageBrush ImageSource="image/bonePaper.png"/>
+                    </Border.Background>
+
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="auto"/>
+                            <ColumnDefinition Width="*"/>
+
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="auto" ></RowDefinition>
+                            <RowDefinition Height="auto" ></RowDefinition>
+                            <RowDefinition Height="auto" ></RowDefinition>
+                        </Grid.RowDefinitions>
+                        
+                        <StackPanel>
+                            <TextBlock Name="p1transfername" HorizontalAlignment="Center" Text="Afghanistan"/>
+                            <TextBlock Name="p1transfercount" HorizontalAlignment="Center" Uid="0"  Text="0"/>
+                        </StackPanel>
+                       
+                        <StackPanel Grid.Column="2">
+                            <TextBlock Name="p2transfername" HorizontalAlignment="Center" Text="China"/>
+                            <WrapPanel HorizontalAlignment="Center">
+                                
+                            <TextBlock Name="p2transfercount" HorizontalAlignment="Center" Text="0"  />
+                                <TextBlock Name="pretransfercount" HorizontalAlignment="Center" Foreground="Red" Text=""/>
+
+                                <TextBlock Name="transfercount" HorizontalAlignment="Center" Foreground="Red" Text="0"/>
+                            </WrapPanel>
+                        </StackPanel>
+                        <Slider Name="transferslider"   Grid.ColumnSpan="3" Grid.Row="1"  
+                                 
+                                Width="150" Margin="20"  TickFrequency="1" IsSnapToTickEnabled="True"  SmallChange="1" 
+                                LargeChange="10"  ValueChanged="transferslider_ValueChanged" Cursor="cursor/SC2-hyperlink.cur" />
+                        <WrapPanel Grid.ColumnSpan="3" Grid.Row="3" HorizontalAlignment="Center">
+                            
+                        <Button Name="transfercancel"  Style="{StaticResource recbutton}" Width="150" Click="transfercancel_Click" Content="انصراف"/>
+                            <Button Name="transferaccept" Style="{StaticResource recbutton}" Width="150" Click="transferaccept_Click" Content="تایید"/>
+                        </WrapPanel>
+                       
+
+                    </Grid>
+                </Border>
+                
+                <Border Name="attackpanel" Grid.Column="0"  VerticalAlignment="Center" HorizontalAlignment="Center" Width="650" Height="430" Panel.ZIndex="2" Padding="40,40,40,10" Visibility="Hidden" >
+                    <Border.Background>
+                        <ImageBrush ImageSource="image/Paper.png"/>
+                    </Border.Background>
+                    <StackPanel>
+                        <Grid VerticalAlignment="Stretch">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="auto" />
+                                <ColumnDefinition Width="*" />
+
+                            </Grid.ColumnDefinitions>
+                            
+                    <Grid Grid.Column="1" Width="200" VerticalAlignment="Center" HorizontalAlignment="Center"  >
+
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+
+                        </Grid.RowDefinitions>
+                        <Image Grid.Column="0" Grid.Row="0"  Name="p1dice1"   Style="{StaticResource Dicepic}"/>
+
+                        <Image Grid.Column="0" Grid.Row="1"  Name="p1dice2"  Style="{StaticResource Dicepic}"/>
+                        <Image Grid.Column="0" Grid.Row="2"  Name="p1dice3"  Style="{StaticResource Dicepic}"/>
+                        <Image Grid.Column="1" Grid.Row="0"  Name="p2dice1"  Style="{StaticResource Dicepic}"/>
+                        <Image Grid.Column="1" Grid.Row="1"  Name="p2dice2"  Style="{StaticResource Dicepic}"/>
+
+
+                    </Grid>
+
+                            <StackPanel>
+                                <Border Name="p1diceimage"  Width="100" Height="100" CornerRadius="50" BorderThickness="2">
+                                    <Border.Effect>
+                                        <DropShadowEffect ShadowDepth="3" BlurRadius="3"/>
+                                    </Border.Effect>
+                                    <Border.Background>
+                                        <ImageBrush ></ImageBrush>
+                                    </Border.Background>
+                                </Border>
+                                <TextBlock  Name="p1dicename" HorizontalAlignment="Center"   > </TextBlock>
+                                <TextBlock  Name="p1dicecountry" HorizontalAlignment="Center" Margin="0,20,0,0"  FontSize="15"></TextBlock>
+                                
+                                   
+
+                                        <Image Source="image/soldier.png"  Width="70"></Image>
+                                <WrapPanel HorizontalAlignment="Center">
+                                    
+                                <TextBlock  Name="p1dicecountrycount" Height="20" HorizontalAlignment="Center" ></TextBlock>
+                                    <TextBlock Foreground="Red" Name="p1dicecountrycountm" Height="20" HorizontalAlignment="Center" ></TextBlock>
+
+                                </WrapPanel>
+                                    
+                                </StackPanel>
+
+                            <StackPanel Grid.Column="2">
+                                <Border  Name="p2diceimage"   Width="100" Height="100" CornerRadius="50" BorderThickness="2">
+                                    <Border.Effect>
+                                        <DropShadowEffect  ShadowDepth="3" BlurRadius="3"/>
+                                    </Border.Effect>
+                                    <Border.Background>
+                                        <ImageBrush ></ImageBrush>
+                                    </Border.Background>
+                                </Border>
+                                <TextBlock  Name="p2dicename" HorizontalAlignment="Center"   ></TextBlock>
+                                <TextBlock Name="p2dicecountry" HorizontalAlignment="Center" Margin="0,20,0,0"  FontSize="15"></TextBlock>
+                                <StackPanel>
+                                    <Image Source="image/soldier.png"  Width="70"></Image>
+                                    <WrapPanel HorizontalAlignment="Center">
+                                        
+                                    <TextBlock Name="p2dicecountrycount" Height="20" HorizontalAlignment="Center" ></TextBlock>
+                                        <TextBlock Foreground="Red"  Name="p2dicecountrycountm" Height="20" HorizontalAlignment="Center" ></TextBlock>
+
+                                    </WrapPanel>
+
+                                </StackPanel>
+                            </StackPanel>
+
+                        </Grid>
+                    <WrapPanel HorizontalAlignment="Center" Margin="0,0" >
+                            <Button Style="{StaticResource recbutton}" Name="reject" Click="reject_Click" Content="انصراف" />
+                            <Button Style="{StaticResource recbutton}" Content=" یه ضرب" />
+                            <Button Style="{StaticResource recbutton}" Name="continue" Content="ادامه" Click="continue_Click" />
+
+                        </WrapPanel>
+                    </StackPanel>
+                </Border>
+
+                <!--main Grid for map-->
+                <Grid Grid.Column="0" x:Name="MainGrid"  HorizontalAlignment="Stretch" MouseDown="MainGrid_MouseDown"  MouseMove="MainGrid_MouseMove"  Opacity=".95" >
+
+                    <Image x:Name="MainImage"  Source="image/RiskMap.png" HorizontalAlignment="Stretch" VerticalAlignment="Top" Grid.Column="0" Grid.Row="0" ForceCursor="True"   >
+
+                        <Image.Effect>
+                            <DropShadowEffect/>
+                        </Image.Effect>
+                    </Image>
+                    <Image x:Name="ImageOver"   HorizontalAlignment="Stretch" VerticalAlignment="Top" Opacity="0.5">
+                        <Image.Effect>
+                            <DropShadowEffect/>
+                        </Image.Effect>
+                    </Image>
+                    <Canvas Width="1000" Height="520" Name="MainCanvas" Background="#44150F0F"  VerticalAlignment="Top"  >
+                        <Label Name="Kamchatka"       Canvas.Left="886" Canvas.Top="106" Content="12"   />
+                        <Label Name="Japan"       Canvas.Left="838" Canvas.Top="203" Content="1" />
+                        <Label Name="Yakutsk"    Canvas.Left="799" Canvas.Top="94" Content="1"  />
+                        <Label Name="Siberia"   Canvas.Left="701" Canvas.Top="101" Content="1"  />
+                        <Label Name="Irkutsk"   Canvas.Left="751" Canvas.Top="141" Content="1" />
+                        <Label Name="Mongolia"   Canvas.Left="781" Canvas.Top="173" Content="1"  />
+                        <Label Name="China"    Canvas.Left="733" Canvas.Top="219" Content="1"  />
+                        <Label Name="Siam"   Canvas.Left="725" Canvas.Top="265" Content="1"  />
+                        <Label Name="India"   Canvas.Left="658" Canvas.Top="243" Content="1" />
+                        <Label Name="Ural"   Canvas.Left="629" Canvas.Top="117" Content="1"  />
+                        <Label Name="Afghanistan"    Canvas.Left="616" Canvas.Top="181" Content="1"  />
+                        <Label Name="MiddleEast"   Canvas.Left="561" Canvas.Top="213" Content="1"  />
+                        <Label Name="Ukraine"   Canvas.Left="542" Canvas.Top="138" Content="1" />
+                        <Label Name="SouthernEurope"   Canvas.Left="493" Canvas.Top="178" Content="1"  />
+                        <Label Name="Scandinavia"   Canvas.Left="484" Canvas.Top="99" Content="1"  />
+                        <Label Name="NorthernEurope"   Canvas.Left="490" Canvas.Top="149" Content="1"   />
+                        <Label Name="GreatBritain"   Canvas.Left="424" Canvas.Top="145" Content="1"  />
+                        <Label Name="WesternEurope"   Canvas.Left="440" Canvas.Top="176" Content="1"/>
+                        <Label Name="Egypt"   Canvas.Left="504" Canvas.Top="235" Content="1"/>
+                        <Label Name="NorthAfrica"   Canvas.Left="435" Canvas.Top="261" Content="1"/>
+                        <Label Name="EastAfrica"   Canvas.Left="545" Canvas.Top="298" Content="1"/>
+                        <Label Name="Congo"   Canvas.Left="505" Canvas.Top="334" Content="1"/>
+                        <Label Name="SouthAfrica"   Canvas.Left="502" Canvas.Top="395" Content="1"/>
+                        <Label Name="Madagascar"   Canvas.Left="572" Canvas.Top="382" Content="1"/>
+                        <Label Name="NewGuinea"   Canvas.Left="848" Canvas.Top="337" Content="1"/>
+                        <Label Name="Indonesia"   Canvas.Left="766" Canvas.Top="321" Content="1"/>
+                        <Label Name="EasternAustralia"   Canvas.Left="857" Canvas.Top="414" Content="1" />
+                        <Label Name="WesternAustralia"   Canvas.Left="793" Canvas.Top="399" Content="1"/>
+                        <Label  Name="Iceland"   Canvas.Left="399" Canvas.Top="108" Content="1"/>
+                        <Label Name="Greenland"   Canvas.Left="364" Canvas.Top="45" Content="1"/>
+                        <Label Name="NorthwestTerritory"   Canvas.Left="167" Canvas.Top="82" Content="1"/>
+                        <Label Name="Alaska"   Canvas.Left="42" Canvas.Top="82" Content="1"/>
+                        <Label Name="Quebec"   Canvas.Left="278" Canvas.Top="126" Content="1"/>
+                        <Label Name="Ontario"   Canvas.Left="203" Canvas.Top="128" Content="1"/>
+                        <Label Name="Alberta"   Canvas.Left="141" Canvas.Top="126" Content="1"/>
+                        <Label Name="EasternUnitedStates"   Canvas.Left="222" Canvas.Top="187" Content="1"/>
+                        <Label Name="WesternUnitedStates"   Canvas.Left="158" Canvas.Top="175" Content="1"/>
+                        <Label Name="CentralAmerica"   Canvas.Left="182" Canvas.Top="230" Content="1"/>
+                        <Label Name="Venezuela"   Canvas.Left="274" Canvas.Top="279" Content="1"/>
+                        <Label Name="Brazil"   Canvas.Left="329" Canvas.Top="331" Content="1"/>
+                        <Label Name="Peru"   Canvas.Left="265" Canvas.Top="339" Content="1"/>
+                        <Label Name="Argentina"   Canvas.Left="282" Canvas.Top="415" Content="1"/>
+
+
+                    </Canvas>
+
+
+                </Grid>
+
+                <!--Border for player list-->
+                <Border Grid.Column="1" BorderBrush="AliceBlue" Margin="15,0,0,0" CornerRadius="10,0,0,10" ClipToBounds="True" Opacity=".95" >
+                   
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                           
+
+                        </Grid.ColumnDefinitions>
+                        <StackPanel  Grid.Column="0" VerticalAlignment="top">
+                            
+                            <Border Name="p0" Height="75"   ></Border>
+                            <Border Name="p1" Height="75"   ></Border>
+                            <Border Name="p2" Height="75"   ></Border>
+                            <Border Name="p3" Height="75"   ></Border>
+                            <Border Name="p4" Height="75"   ></Border>
+                            <Border Name="p5" Height="75"   ></Border>
+                                                       
+                        </StackPanel>
+                        
+                    <ItemsControl Grid.Column="1"  Name="PlayerList" ItemsSource="{Binding Player}"  >
+
+
+
+                        <ItemsControl.ItemTemplate  >
+                            <DataTemplate  >
+
+
+                                <Border  HorizontalAlignment="Right"  Background="#eeffffff" Margin="10,5,10,5"  CornerRadius="10,0,0,10"
+                                    BorderBrush="{Binding Color ,UpdateSourceTrigger=PropertyChanged}" BorderThickness="2" Width="150"  >
+                                    <Border.Effect>
+                                        <DropShadowEffect Color="{Binding Color}" ShadowDepth="4" BlurRadius="3"/>
+                                    </Border.Effect>
+
+                                    <Grid  Height="60" HorizontalAlignment="Right" >
+                                        <Grid.ColumnDefinitions>
+
+                                            <ColumnDefinition Width="100" />
+                                            <ColumnDefinition Width="auto"  />
+                                        </Grid.ColumnDefinitions>
+
+                                        <TextBlock   Grid.Column="0" Text="{Binding Name}" HorizontalAlignment="Stretch" VerticalAlignment="Center"
+                                                TextAlignment="Right" Padding="5" FontSize="16" Foreground="{Binding Color}"/>
+
+
+                                        <Image Grid.Column="1"  Source="{Binding Avatar }"></Image>
+
+
+
+                                    </Grid>
+                                </Border>
+
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+
+
+                    </ItemsControl>
+                    </Grid>
+                </Border>
+            </Grid>
+
+        </StackPanel>
+
+
+        <StackPanel>
+            
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="auto" />
+                    <ColumnDefinition Width="auto" />
+
+                    <ColumnDefinition Width="250" />
+
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="*" />
+
+                </Grid.RowDefinitions>
+                <MediaElement Name="media" Height="0" Width="0" Panel.ZIndex="-1" LoadedBehavior="Manual" MediaEnded="media_MediaEnded"/>
+                <Grid Name="cardsholder" HorizontalAlignment="Center" Grid.RowSpan="2" Grid.ColumnSpan="2">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+
+                        <RowDefinition Height="auto" />
+
+                    </Grid.RowDefinitions>
+                    <Grid.Effect>
+                        <DropShadowEffect/>
+                    </Grid.Effect>
+                    <Grid.Background>
+                        <ImageBrush ImageSource="image/paper2.jpg"/>
+                    </Grid.Background>
+                    <Image Name="Infantry" Grid.Column="0" Margin="10,5,10,0" Style="{StaticResource card}"  Source="cards/infantry.png" MouseDown="Card_MouseDown" />
+                    <Image Name="Cavalry"  Grid.Column="1" Margin="10,5,10,0" Style="{StaticResource card}"  Source="cards/cavalry.png" MouseDown="Card_MouseDown" />
+                    <Image Name="Artillery"  Grid.Column="2" Margin="10,5,10,0" Style="{StaticResource card}"  Source="cards/artillery.png" MouseDown="Card_MouseDown" />
+                    <TextBlock Name="InfantryCount" Grid.Row="1" Grid.Column="0"  HorizontalAlignment="Center" />
+                    <TextBlock Name="CavalryCount" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" />
+                    <TextBlock Name="ArtilleryCount" Grid.Row="1" Grid.Column="2" HorizontalAlignment="Center" />
+
+                </Grid>
+                <WrapPanel>
+
+                    <Button   Name="Exit"   Click="Exit_Click" Style="{StaticResource circlebutton}" >
+
+                        <Button.Background>
+                            
+                            <ImageBrush ImageSource="buttons/back.png" Stretch="Uniform"/>
+
+                        </Button.Background>
+                    </Button>
+                    <Button   Name="Music"  Click="Music_Click" Style="{StaticResource circlebutton}" >
+
+                        <Button.Background>
+                            <ImageBrush ImageSource="buttons/music.png" Stretch="Uniform"/>
+
+                        </Button.Background>
+                    </Button>
+                    <Button   Name="Share"   Click="Share_Click" Style="{StaticResource circlebutton}" >
+
+                        <Button.Background>
+                            <ImageBrush ImageSource="buttons/share.png" Stretch="Uniform" />
+
+                        </Button.Background>
+                    </Button>
+
+                </WrapPanel>
+                    <Button   Name="MainButton"  Grid.Column="2"  Click="MainButton_Click" Style="{StaticResource recbutton}" Content="ادامه" />
+                <StackPanel Grid.Column="1" Grid.RowSpan="1" Opacity="0.9" HorizontalAlignment="Right">
+                    <StackPanel.Background>
+                        <ImageBrush ImageSource="image/paper2.jpg"/>
+                    </StackPanel.Background>
+                    <WrapPanel Margin="5" HorizontalAlignment="Right">
+                        <TextBlock Name="status" />
+                        <TextBlock  Text=":وضعیت"/>
+                    </WrapPanel>
+                    <WrapPanel Name="unitcountpanel"  HorizontalAlignment="Right" Margin="5" Visibility="Hidden">
+                        <Image Source="image/soldier.png" Height="30" />
+                        <TextBlock Name="UnitCount"  />
+                        <TextBlock  Text=":تعداد نیرو"/>
+                        
+                    </WrapPanel>
+                </StackPanel>
+            </Grid>
+
+        </StackPanel>
+      
+    </StackPanel>
+</Window>

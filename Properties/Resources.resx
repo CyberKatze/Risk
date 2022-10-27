@@ -1,0 +1,559 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Color" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;People&gt;
+  &lt;country&gt;
+    &lt;Name&gt;Kamchatka&lt;/Name&gt;
+    &lt;Color A="255" R="84" B="29" G="130" /&gt;
+  &lt;/country&gt;
+  &lt;country&gt;
+    &lt;Name&gt;Yakutsk&lt;/Name&gt;
+    &lt;Color A="255" R="106" B="32" G="169" /&gt;
+  &lt;/country&gt;
+  &lt;country&gt;
+    &lt;Name&gt;Siberia&lt;/Name&gt;
+    &lt;Color A="255" R="130" B="49" G="198" /&gt;
+  &lt;/country&gt;
+  &lt;country&gt;
+    &lt;Name&gt;Ural&lt;/Name&gt;
+    &lt;Color A="255" R="162" B="72" G="237" /&gt;
+  &lt;/country&gt;
+  &lt;country&gt;
+    &lt;Name&gt;Japan&lt;/Name&gt;
+    &lt;Color A="255" R="139" B="4" G="255" /&gt;
+  &lt;/country&gt;
+  &lt;country&gt;
+    &lt;Name&gt;Mongolia&lt;/Name&gt;
+    &lt;Color A="255" R="27" B="40" G="212" /&gt;
+  &lt;/country&gt;
+  &lt;country&gt;
+    &lt;Name&gt;Irkutsk&lt;/Name&gt;
+    &lt;Color A="255" R="84" B="103" G="219" /&gt;
+  &lt;/country&gt;
+  &lt;country&gt;
+    &lt;Name&gt;China&lt;/Name&gt;
+    &lt;Color A="255" R="71" B="80" G="132" /&gt;
+  &lt;/country&gt;
+  &lt;country&gt;
+    &lt;Name&gt;Afghanistan&lt;/Name&gt;
+    &lt;Color A="255" R="43" B="51" G="97" /&gt;
+  &lt;/country&gt;
+  &lt;country&gt;
+    &lt;Name&gt;Siam&lt;/Name&gt;
+    &lt;Color A="255" R="105" B="113" G="158" /&gt;
+  &lt;/country&gt;
+  &lt;country&gt;
+    &lt;Name&gt;India&lt;/Name&gt;
+    &lt;Color A="255" R="94" B="79" G="128" /&gt;
+  &lt;/country&gt;
+  &lt;country&gt;
+    &lt;Name&gt;MiddleEast&lt;/Name&gt;
+    &lt;Color A="255" R="116" B="79" G="128" /&gt;
+  &lt;/country&gt;
+  &lt;country&gt;
+    &lt;Name&gt;Ukraine&lt;/Name&gt;
+    &lt;Color A="255" R="41" B="252" G="0" /&gt;
+  &lt;/country&gt;
+  &lt;country&gt;
+    &lt;Name&gt;Scandinavia&lt;/Name&gt;
+    &lt;Color A="255" R="99" B="240" G="72" /&gt;
+  &lt;/country&gt;
+  &lt;country&gt;
+    &lt;Name&gt;NorthernEurope&lt;/Name&gt;
+    &lt;Color A="255" R="44" B="179" G="18" /&gt;
+  &lt;/country&gt;
+  &lt;country&gt;
+    &lt;Name&gt;SouthernEurope&lt;/Name&gt;
+    &lt;Color A="255" R="66" B="149" G="50" /&gt;
+  &lt;/country&gt;
+  &lt;country&gt;
+    &lt;Name&gt;WesternEurope&lt;/Name&gt;
+    &lt;Color A="255" R="63" B="207" G="141" /&gt;
+  &lt;/country&gt;
+  &lt;country&gt;
+    &lt;Name&gt;GreatBritain&lt;/Name&gt;
+    &lt;Color A="255" R="133" B="237" G="189" /&gt;
+  &lt;/country&gt;
+  &lt;country&gt;
+    &lt;Name&gt;Iceland&lt;/Name&gt;
+    &lt;Color A="255" R="71" B="130" G="103" /&gt;
+  &lt;/country&gt;
+  &lt;country&gt;
+    &lt;Name&gt;NewGuinea&lt;/Name&gt;
+    &lt;Color A="255" R="119" B="128" G="62" /&gt;
+  &lt;/country&gt;
+  &lt;country&gt;
+    &lt;Name&gt;Indonesia&lt;/Name&gt;
+    &lt;Color A="255" R="187" B="200" G="95" /&gt;
+  &lt;/country&gt;
+  &lt;country&gt;
+    &lt;Name&gt;EasternAustralia&lt;/Name&gt;
+    &lt;Color A="255" R="216" B="244" G="27" /&gt;
+  &lt;/country&gt;
+  &lt;country&gt;
+    &lt;Name&gt;WesternAustralia&lt;/Name&gt;
+    &lt;Color A="255" R="214" B="210" G="79" /&gt;
+  &lt;/country&gt;
+  &lt;country&gt;
+    &lt;Name&gt;Egypt&lt;/Name&gt;
+    &lt;Color A="255" R="86" B="62" G="62" /&gt;
+  &lt;/country&gt;
+  &lt;country&gt;
+    &lt;Name&gt;NorthAfrica&lt;/Name&gt;
+    &lt;Color A="255" R="221" B="88" G="88" /&gt;
+  &lt;/country&gt;
+  &lt;country&gt;
+    &lt;Name&gt;EastAfrica&lt;/Name&gt;
+    &lt;Color A="255" R="143" B="44" G="44" /&gt;
+  &lt;/country&gt;
+  &lt;country&gt;
+    &lt;Name&gt;Congo&lt;/Name&gt;
+    &lt;Color A="255" R="146" B="15" G="15" /&gt;
+  &lt;/country&gt;
+  &lt;country&gt;
+    &lt;Name&gt;Madagascar&lt;/Name&gt;
+    &lt;Color A="255" R="147" B="20" G="62" /&gt;
+  &lt;/country&gt;
+  &lt;country&gt;
+    &lt;Name&gt;SouthAfrica&lt;/Name&gt;
+    &lt;Color A="255" R="154" B="79" G="103" /&gt;
+  &lt;/country&gt;
+  &lt;country&gt;
+    &lt;Name&gt;Greenland&lt;/Name&gt;
+    &lt;Color A="255" R="147" B="20" G="110" /&gt;
+  &lt;/country&gt;
+  &lt;country&gt;
+    &lt;Name&gt;NorthwestTerritory&lt;/Name&gt;
+    &lt;Color A="255" R="181" B="79" G="151" /&gt;
+  &lt;/country&gt;
+  &lt;country&gt;
+    &lt;Name&gt;Alaska&lt;/Name&gt;
+    &lt;Color A="255" R="225" B="118" G="194" /&gt;
+  &lt;/country&gt;
+  &lt;country&gt;
+    &lt;Name&gt;Quebec&lt;/Name&gt;
+    &lt;Color A="255" R="144" B="14" G="139" /&gt;
+  &lt;/country&gt;
+  &lt;country&gt;
+    &lt;Name&gt;Ontario&lt;/Name&gt;
+    &lt;Color A="255" R="170" B="43" G="166" /&gt;
+  &lt;/country&gt;
+  &lt;country&gt;
+    &lt;Name&gt;Alberta&lt;/Name&gt;
+    &lt;Color A="255" R="205" B="79" G="201" /&gt;
+  &lt;/country&gt;
+  &lt;country&gt;
+    &lt;Name&gt;EasternUnitedStates&lt;/Name&gt;
+    &lt;Color A="255" R="234" B="89" G="229" /&gt;
+  &lt;/country&gt;
+  &lt;country&gt;
+    &lt;Name&gt;WesternUnitedStates&lt;/Name&gt;
+    &lt;Color A="255" R="252" B="35" G="245" /&gt;
+  &lt;/country&gt;
+  &lt;country&gt;
+    &lt;Name&gt;CentralAmerica&lt;/Name&gt;
+    &lt;Color A="255" R="236" B="157" G="234" /&gt;
+  &lt;/country&gt;
+  &lt;country&gt;
+    &lt;Name&gt;Venezuela&lt;/Name&gt;
+    &lt;Color A="255" R="250" B="46" G="46" /&gt;
+  &lt;/country&gt;
+  &lt;country&gt;
+    &lt;Name&gt;Brazil&lt;/Name&gt;
+    &lt;Color A="255" R="225" B="78" G="20" /&gt;
+  &lt;/country&gt;
+  &lt;country&gt;
+    &lt;Name&gt;Peru&lt;/Name&gt;
+    &lt;Color A="255" R="202" B="117" G="83" /&gt;
+  &lt;/country&gt;
+  &lt;country&gt;
+    &lt;Name&gt;Argentina&lt;/Name&gt;
+    &lt;Color A="255" R="255" B="187" G="160" /&gt;
+  &lt;/country&gt;
+&lt;/People&gt;</value>
+  </data>
+  <data name="map" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="utf-8" ?&gt;
+
+&lt;Risk&gt;
+  &lt;Continent name="North America" unitValue="5"&gt;
+    &lt;Country name="Alaska"&gt;
+      &lt;AdjacentCountry name="Kamchatka" /&gt;
+      &lt;AdjacentCountry name="Alberta" /&gt;
+      &lt;AdjacentCountry name="NorthwestTerritory" /&gt;
+    &lt;/Country&gt;
+    &lt;Country name="Alberta"&gt;
+      &lt;AdjacentCountry name="Alaska" /&gt;
+      &lt;AdjacentCountry name="Ontario" /&gt;
+      &lt;AdjacentCountry name="NorthwestTerritory" /&gt;
+      &lt;AdjacentCountry name="WesternUnitedStates" /&gt;
+    &lt;/Country&gt;
+    &lt;Country name="CentralAmerica"&gt;
+      &lt;AdjacentCountry name="Venezuela" /&gt;
+      &lt;AdjacentCountry name="WesternUnitedStates" /&gt;
+      &lt;AdjacentCountry name="EasternUnitedStates" /&gt;
+    &lt;/Country&gt;
+    &lt;Country name="EasternUnitedStates"&gt;
+      &lt;AdjacentCountry name="WesternUnitedStates" /&gt;
+      &lt;AdjacentCountry name="Ontario" /&gt;
+      &lt;AdjacentCountry name="Quebec" /&gt;
+      &lt;AdjacentCountry name="CentralAmerica" /&gt;
+    &lt;/Country&gt;
+    &lt;Country name="Greenland"&gt;
+      &lt;AdjacentCountry name="Iceland" /&gt;
+      &lt;AdjacentCountry name="Ontario" /&gt;
+      &lt;AdjacentCountry name="Quebec" /&gt;
+      &lt;AdjacentCountry name="NorthwestTerritory" /&gt;
+    &lt;/Country&gt;
+    &lt;Country name="NorthwestTerritory"&gt;
+      &lt;AdjacentCountry name="Alaska" /&gt;
+      &lt;AdjacentCountry name="Ontario" /&gt;
+      &lt;AdjacentCountry name="Alberta" /&gt;
+      &lt;AdjacentCountry name="Greenland" /&gt;
+    &lt;/Country&gt;
+    &lt;Country name="Ontario"&gt;
+      &lt;AdjacentCountry name="Alberta" /&gt;
+      &lt;AdjacentCountry name="Quebec" /&gt;
+      &lt;AdjacentCountry name="NorthwestTerritory" /&gt;
+      &lt;AdjacentCountry name="WesternUnitedStates" /&gt;
+      &lt;AdjacentCountry name="EasternUnitedStates" /&gt;
+      &lt;AdjacentCountry name="Greenland" /&gt;
+    &lt;/Country&gt;
+    &lt;Country name="Quebec"&gt;
+      &lt;AdjacentCountry name="EasternUnitedStates" /&gt;
+      &lt;AdjacentCountry name="Greenland" /&gt;
+      &lt;AdjacentCountry name="Ontario" /&gt;
+    &lt;/Country&gt;
+    &lt;Country name="WesternUnitedStates"&gt;
+      &lt;AdjacentCountry name="EasternUnitedStates" /&gt;
+      &lt;AdjacentCountry name="CentralAmerica" /&gt;
+      &lt;AdjacentCountry name="Alberta" /&gt;
+      &lt;AdjacentCountry name="Ontario" /&gt;
+    &lt;/Country&gt;
+  &lt;/Continent&gt;
+  &lt;Continent name="SouthAmerica" unitValue="2"&gt;
+    &lt;Country name="Argentina"&gt;
+      &lt;AdjacentCountry name="Brazil" /&gt;
+      &lt;AdjacentCountry name="Peru" /&gt;
+    &lt;/Country&gt;
+    &lt;Country name="Brazil"&gt;
+      &lt;AdjacentCountry name="NorthAfrica" /&gt;
+      &lt;AdjacentCountry name="Peru" /&gt;
+      &lt;AdjacentCountry name="Venezuela" /&gt;
+      &lt;AdjacentCountry name="Argentina" /&gt;
+    &lt;/Country&gt;
+    &lt;Country name="Peru"&gt;
+      &lt;AdjacentCountry name="Brazil" /&gt;
+      &lt;AdjacentCountry name="Venezuela" /&gt;
+      &lt;AdjacentCountry name="Argentina" /&gt;
+    &lt;/Country&gt;
+    &lt;Country name="Venezuela"&gt;
+      &lt;AdjacentCountry name="CentralAmerica" /&gt;
+      &lt;AdjacentCountry name="Peru" /&gt;
+      &lt;AdjacentCountry name="Brazil" /&gt;
+    &lt;/Country&gt;
+  &lt;/Continent&gt;
+  &lt;Continent name="Africa" unitValue="3"&gt;
+    &lt;Country name="Congo"&gt;
+      &lt;AdjacentCountry name="EastAfrica" /&gt;
+      &lt;AdjacentCountry name="NorthAfrica" /&gt;
+      &lt;AdjacentCountry name="SouthAfrica" /&gt;
+    &lt;/Country&gt;
+    &lt;Country name="EastAfrica"&gt;
+      &lt;AdjacentCountry name="Congo" /&gt;
+      &lt;AdjacentCountry name="Egypt" /&gt;
+      &lt;AdjacentCountry name="Madagascar" /&gt;
+      &lt;AdjacentCountry name="SouthAfrica" /&gt;
+      &lt;AdjacentCountry name="MiddleEast" /&gt;
+      &lt;AdjacentCountry name="NorthAfrica" /&gt;
+    &lt;/Country&gt;
+    &lt;Country name="Egypt"&gt;
+      &lt;AdjacentCountry name="EastAfrica" /&gt;
+      &lt;AdjacentCountry name="NorthAfrica" /&gt;
+      &lt;AdjacentCountry name="SouthernEurope" /&gt;
+      &lt;AdjacentCountry name="MiddleEast" /&gt;
+    &lt;/Country&gt;
+    &lt;Country name="Madagascar"&gt;
+      &lt;AdjacentCountry name="EastAfrica" /&gt;
+      &lt;AdjacentCountry name="SouthAfrica" /&gt;
+    &lt;/Country&gt;
+    &lt;Country name="NorthAfrica"&gt;
+      &lt;AdjacentCountry name="Congo" /&gt;
+      &lt;AdjacentCountry name="EastAfrica" /&gt;
+      &lt;AdjacentCountry name="Egypt" /&gt;
+      &lt;AdjacentCountry name="Brazil" /&gt;
+      &lt;AdjacentCountry name="WesternEurope" /&gt;
+    &lt;/Country&gt;
+    &lt;Country name="SouthAfrica"&gt;
+      &lt;AdjacentCountry name="Congo" /&gt;
+      &lt;AdjacentCountry name="EastAfrica" /&gt;
+      &lt;AdjacentCountry name="Madagascar" /&gt;
+    &lt;/Country&gt;
+  &lt;/Continent&gt;
+  &lt;Continent name="Europe" unitValue="5"&gt;
+    &lt;Country name="GreatBritain"&gt;
+      &lt;AdjacentCountry name="Iceland" /&gt;
+      &lt;AdjacentCountry name="NorthernEurope" /&gt;
+      &lt;AdjacentCountry name="Scandinavia" /&gt;
+      &lt;AdjacentCountry name="WesternEurope" /&gt;
+    &lt;/Country&gt;
+    &lt;Country name="Iceland"&gt;
+      &lt;AdjacentCountry name="Greenland" /&gt;
+      &lt;AdjacentCountry name="GreatBritain" /&gt;
+      &lt;AdjacentCountry name="Scandinavia" /&gt;
+    &lt;/Country&gt;
+    &lt;Country name="NorthernEurope"&gt;
+      &lt;AdjacentCountry name="Ukraine" /&gt;
+      &lt;AdjacentCountry name="WesternEurope" /&gt;
+      &lt;AdjacentCountry name="Scandinavia" /&gt;
+      &lt;AdjacentCountry name="SouthernEurope" /&gt;
+      &lt;AdjacentCountry name="GreatBritain" /&gt;
+    &lt;/Country&gt;
+    &lt;Country name="Scandinavia"&gt;
+      &lt;AdjacentCountry name="Iceland" /&gt;
+      &lt;AdjacentCountry name="NorthernEurope" /&gt;
+      &lt;AdjacentCountry name="Ukraine" /&gt;
+      &lt;AdjacentCountry name="GreatBritain" /&gt;
+    &lt;/Country&gt;
+    &lt;Country name="SouthernEurope"&gt;
+      &lt;AdjacentCountry name="Ukraine" /&gt;
+      &lt;AdjacentCountry name="WesternEurope" /&gt;
+      &lt;AdjacentCountry name="NorthernEurope" /&gt;
+      &lt;AdjacentCountry name="Egypt" /&gt;
+      &lt;AdjacentCountry name="MiddleEast" /&gt;
+    &lt;/Country&gt;
+    &lt;Country name="Ukraine"&gt;
+      &lt;AdjacentCountry name="SouthernEurope" /&gt;
+      &lt;AdjacentCountry name="NorthernEurope" /&gt;
+      &lt;AdjacentCountry name="Scandinavia" /&gt;
+      &lt;AdjacentCountry name="MiddleEast" /&gt;
+      &lt;AdjacentCountry name="Afghanistan" /&gt;
+      &lt;AdjacentCountry name="Ural" /&gt;
+    &lt;/Country&gt;
+    &lt;Country name="WesternEurope"&gt;
+      &lt;AdjacentCountry name="NorthAfrica" /&gt;
+      &lt;AdjacentCountry name="SouthernEurope" /&gt;
+      &lt;AdjacentCountry name="NorthernEurope" /&gt;
+      &lt;AdjacentCountry name="GreatBritain" /&gt;
+    &lt;/Country&gt;
+  &lt;/Continent&gt;
+  &lt;Continent name="Asia" unitValue="7"&gt;
+    &lt;Country name="Afghanistan"&gt;
+      &lt;AdjacentCountry name="MiddleEast" /&gt;
+      &lt;AdjacentCountry name="Ukraine" /&gt;
+      &lt;AdjacentCountry name="Ural" /&gt;
+      &lt;AdjacentCountry name="China" /&gt;
+      &lt;AdjacentCountry name="India" /&gt;
+    &lt;/Country&gt;
+    &lt;Country name="China"&gt;
+      &lt;AdjacentCountry name="Siam" /&gt;
+      &lt;AdjacentCountry name="Mongolia" /&gt;
+      &lt;AdjacentCountry name="India" /&gt;
+      &lt;AdjacentCountry name="Afghanistan" /&gt;
+      &lt;AdjacentCountry name="Ural" /&gt;
+      &lt;AdjacentCountry name="Siberia" /&gt;
+    &lt;/Country&gt;
+    &lt;Country name="India"&gt;
+      &lt;AdjacentCountry name="MiddleEast" /&gt;
+      &lt;AdjacentCountry name="China" /&gt;
+      &lt;AdjacentCountry name="Siam" /&gt;
+      &lt;AdjacentCountry name="Afghanistan" /&gt;
+    &lt;/Country&gt;
+    &lt;Country name="Irkutsk"&gt;
+      &lt;AdjacentCountry name="Siberia" /&gt;
+      &lt;AdjacentCountry name="Mongolia" /&gt;
+      &lt;AdjacentCountry name="Kamchatka" /&gt;
+      &lt;AdjacentCountry name="Yakutsk" /&gt;
+    &lt;/Country&gt;
+    &lt;Country name="Japan"&gt;
+      &lt;AdjacentCountry name="Mongolia" /&gt;
+      &lt;AdjacentCountry name="Kamchatka" /&gt;
+    &lt;/Country&gt;
+    &lt;Country name="Kamchatka"&gt;
+      &lt;AdjacentCountry name="Alaska" /&gt;
+      &lt;AdjacentCountry name="Mongolia" /&gt;
+      &lt;AdjacentCountry name="Irkutsk" /&gt;
+      &lt;AdjacentCountry name="Yakutsk" /&gt;
+      &lt;AdjacentCountry name="Japan" /&gt;
+    &lt;/Country&gt;
+    &lt;Country name="MiddleEast"&gt;
+      &lt;AdjacentCountry name="EastAfrica" /&gt;
+      &lt;AdjacentCountry name="SouthernEurope" /&gt;
+      &lt;AdjacentCountry name="Egypt" /&gt;
+      &lt;AdjacentCountry name="Ukraine" /&gt;
+      &lt;AdjacentCountry name="Afghanistan" /&gt;
+      &lt;AdjacentCountry name="India" /&gt;
+    &lt;/Country&gt;
+    &lt;Country name="Mongolia"&gt;
+      &lt;AdjacentCountry name="China" /&gt;
+      &lt;AdjacentCountry name="Siberia" /&gt;
+      &lt;AdjacentCountry name="Irkutsk" /&gt;
+      &lt;AdjacentCountry name="Japan" /&gt;
+      &lt;AdjacentCountry name="Kamchatka" /&gt;
+    &lt;/Country&gt;
+    &lt;Country name="Siam"&gt;
+      &lt;AdjacentCountry name="China" /&gt;
+      &lt;AdjacentCountry name="India" /&gt;
+      &lt;AdjacentCountry name="Indonesia" /&gt;
+    &lt;/Country&gt;
+    &lt;Country name="Siberia"&gt;
+      &lt;AdjacentCountry name="Ural" /&gt;
+      &lt;AdjacentCountry name="China" /&gt;
+      &lt;AdjacentCountry name="Mongolia" /&gt;
+      &lt;AdjacentCountry name="Yakutsk" /&gt;
+      &lt;AdjacentCountry name="Irkutsk" /&gt;
+    &lt;/Country&gt;
+    &lt;Country name="Ural"&gt;
+      &lt;AdjacentCountry name="China" /&gt;
+      &lt;AdjacentCountry name="Ukraine" /&gt;
+      &lt;AdjacentCountry name="Afghanistan" /&gt;
+      &lt;AdjacentCountry name="Siberia" /&gt;
+    &lt;/Country&gt;
+    &lt;Country name="Yakutsk"&gt;
+      &lt;AdjacentCountry name="Kamchatka" /&gt;
+      &lt;AdjacentCountry name="Irkutsk" /&gt;
+      &lt;AdjacentCountry name="Siberia" /&gt;
+    &lt;/Country&gt;
+  &lt;/Continent&gt;
+  &lt;Continent name="Oceana" unitValue="2"&gt;
+    &lt;Country name="EasternAustralia"&gt;
+      &lt;AdjacentCountry name="WesternAustralia" /&gt;
+      &lt;AdjacentCountry name="NewGuinea" /&gt;
+    &lt;/Country&gt;
+    &lt;Country name="Indonesia"&gt;
+      &lt;AdjacentCountry name="Siam" /&gt;
+      &lt;AdjacentCountry name="NewGuinea" /&gt;
+      &lt;AdjacentCountry name="WesternAustralia" /&gt;
+    &lt;/Country&gt;
+    &lt;Country name="NewGuinea"&gt;
+      &lt;AdjacentCountry name="WesternAustralia" /&gt;
+      &lt;AdjacentCountry name="Indonesia" /&gt;
+      &lt;AdjacentCountry name="EasternAustralia" /&gt;
+    &lt;/Country&gt;
+    &lt;Country name="WesternAustralia"&gt;
+      &lt;AdjacentCountry name="EasternAustralia" /&gt;
+      &lt;AdjacentCountry name="NewGuinea" /&gt;
+      &lt;AdjacentCountry name="Indonesia" /&gt;
+    &lt;/Country&gt;
+  &lt;/Continent&gt;
+&lt;/Risk&gt;</value>
+  </data>
+</root>

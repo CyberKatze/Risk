@@ -1,0 +1,264 @@
+﻿ <?xml version="1.0" encoding="utf-8" ?>
+
+<Risk>
+  <Continent name="North America" unitValue="5">
+    <Country name="Alaska">
+      <AdjacentCountry name="Kamchatka" />
+      <AdjacentCountry name="Alberta" />
+      <AdjacentCountry name="NorthwestTerritory" />
+    </Country>
+    <Country name="Alberta">
+      <AdjacentCountry name="Alaska" />
+      <AdjacentCountry name="Ontario" />
+      <AdjacentCountry name="NorthwestTerritory" />
+      <AdjacentCountry name="WesternUnitedStates" />
+    </Country>
+    <Country name="CentralAmerica">
+      <AdjacentCountry name="Venezuela" />
+      <AdjacentCountry name="WesternUnitedStates" />
+      <AdjacentCountry name="EasternUnitedStates" />
+    </Country>
+    <Country name="EasternUnitedStates">
+      <AdjacentCountry name="WesternUnitedStates" />
+      <AdjacentCountry name="Ontario" />
+      <AdjacentCountry name="Quebec" />
+      <AdjacentCountry name="CentralAmerica" />
+    </Country>
+    <Country name="Greenland">
+      <AdjacentCountry name="Iceland" />
+      <AdjacentCountry name="Ontario" />
+      <AdjacentCountry name="Quebec" />
+      <AdjacentCountry name="NorthwestTerritory" />
+    </Country>
+    <Country name="NorthwestTerritory">
+      <AdjacentCountry name="Alaska" />
+      <AdjacentCountry name="Ontario" />
+      <AdjacentCountry name="Alberta" />
+      <AdjacentCountry name="Greenland" />
+    </Country>
+    <Country name="Ontario">
+      <AdjacentCountry name="Alberta" />
+      <AdjacentCountry name="Quebec" />
+      <AdjacentCountry name="NorthwestTerritory" />
+      <AdjacentCountry name="WesternUnitedStates" />
+      <AdjacentCountry name="EasternUnitedStates" />
+      <AdjacentCountry name="Greenland" />
+    </Country>
+    <Country name="Quebec">
+      <AdjacentCountry name="EasternUnitedStates" />
+      <AdjacentCountry name="Greenland" />
+      <AdjacentCountry name="Ontario" />
+    </Country>
+    <Country name="WesternUnitedStates">
+      <AdjacentCountry name="EasternUnitedStates" />
+      <AdjacentCountry name="CentralAmerica" />
+      <AdjacentCountry name="Alberta" />
+      <AdjacentCountry name="Ontario" />
+    </Country>
+  </Continent>
+  <Continent name="SouthAmerica" unitValue="2">
+    <Country name="Argentina">
+      <AdjacentCountry name="Brazil" />
+      <AdjacentCountry name="Peru" />
+    </Country>
+    <Country name="Brazil">
+      <AdjacentCountry name="NorthAfrica" />
+      <AdjacentCountry name="Peru" />
+      <AdjacentCountry name="Venezuela" />
+      <AdjacentCountry name="Argentina" />
+    </Country>
+    <Country name="Peru">
+      <AdjacentCountry name="Brazil" />
+      <AdjacentCountry name="Venezuela" />
+      <AdjacentCountry name="Argentina" />
+    </Country>
+    <Country name="Venezuela">
+      <AdjacentCountry name="CentralAmerica" />
+      <AdjacentCountry name="Peru" />
+      <AdjacentCountry name="Brazil" />
+    </Country>
+  </Continent>
+  <Continent name="Africa" unitValue="3">
+    <Country name="Congo">
+      <AdjacentCountry name="EastAfrica" />
+      <AdjacentCountry name="NorthAfrica" />
+      <AdjacentCountry name="SouthAfrica" />
+    </Country>
+    <Country name="EastAfrica">
+      <AdjacentCountry name="Congo" />
+      <AdjacentCountry name="Egypt" />
+      <AdjacentCountry name="Madagascar" />
+      <AdjacentCountry name="SouthAfrica" />
+      <AdjacentCountry name="MiddleEast" />
+      <AdjacentCountry name="NorthAfrica" />
+    </Country>
+    <Country name="Egypt">
+      <AdjacentCountry name="EastAfrica" />
+      <AdjacentCountry name="NorthAfrica" />
+      <AdjacentCountry name="SouthernEurope" />
+      <AdjacentCountry name="MiddleEast" />
+    </Country>
+    <Country name="Madagascar">
+      <AdjacentCountry name="EastAfrica" />
+      <AdjacentCountry name="SouthAfrica" />
+    </Country>
+    <Country name="NorthAfrica">
+      <AdjacentCountry name="Congo" />
+      <AdjacentCountry name="EastAfrica" />
+      <AdjacentCountry name="Egypt" />
+      <AdjacentCountry name="Brazil" />
+      <AdjacentCountry name="WesternEurope" />
+    </Country>
+    <Country name="SouthAfrica">
+      <AdjacentCountry name="Congo" />
+      <AdjacentCountry name="EastAfrica" />
+      <AdjacentCountry name="Madagascar" />
+    </Country>
+  </Continent>
+  <Continent name="Europe" unitValue="5">
+    <Country name="GreatBritain">
+      <AdjacentCountry name="Iceland" />
+      <AdjacentCountry name="NorthernEurope" />
+      <AdjacentCountry name="Scandinavia" />
+      <AdjacentCountry name="WesternEurope" />
+    </Country>
+    <Country name="Iceland">
+      <AdjacentCountry name="Greenland" />
+      <AdjacentCountry name="GreatBritain" />
+      <AdjacentCountry name="Scandinavia" />
+    </Country>
+    <Country name="NorthernEurope">
+      <AdjacentCountry name="Ukraine" />
+      <AdjacentCountry name="WesternEurope" />
+      <AdjacentCountry name="Scandinavia" />
+      <AdjacentCountry name="SouthernEurope" />
+      <AdjacentCountry name="GreatBritain" />
+    </Country>
+    <Country name="Scandinavia">
+      <AdjacentCountry name="Iceland" />
+      <AdjacentCountry name="NorthernEurope" />
+      <AdjacentCountry name="Ukraine" />
+      <AdjacentCountry name="GreatBritain" />
+    </Country>
+    <Country name="SouthernEurope">
+      <AdjacentCountry name="Ukraine" />
+      <AdjacentCountry name="WesternEurope" />
+      <AdjacentCountry name="NorthernEurope" />
+      <AdjacentCountry name="Egypt" />
+      <AdjacentCountry name="MiddleEast" />
+    </Country>
+    <Country name="Ukraine">
+      <AdjacentCountry name="SouthernEurope" />
+      <AdjacentCountry name="NorthernEurope" />
+      <AdjacentCountry name="Scandinavia" />
+      <AdjacentCountry name="MiddleEast" />
+      <AdjacentCountry name="Afghanistan" />
+      <AdjacentCountry name="Ural" />
+    </Country>
+    <Country name="WesternEurope">
+      <AdjacentCountry name="NorthAfrica" />
+      <AdjacentCountry name="SouthernEurope" />
+      <AdjacentCountry name="NorthernEurope" />
+      <AdjacentCountry name="GreatBritain" />
+    </Country>
+  </Continent>
+  <Continent name="Asia" unitValue="7">
+    <Country name="Afghanistan">
+      <AdjacentCountry name="MiddleEast" />
+      <AdjacentCountry name="Ukraine" />
+      <AdjacentCountry name="Ural" />
+      <AdjacentCountry name="China" />
+      <AdjacentCountry name="India" />
+    </Country>
+    <Country name="China">
+      <AdjacentCountry name="Siam" />
+      <AdjacentCountry name="Mongolia" />
+      <AdjacentCountry name="India" />
+      <AdjacentCountry name="Afghanistan" />
+      <AdjacentCountry name="Ural" />
+      <AdjacentCountry name="Siberia" />
+    </Country>
+    <Country name="India">
+      <AdjacentCountry name="MiddleEast" />
+      <AdjacentCountry name="China" />
+      <AdjacentCountry name="Siam" />
+      <AdjacentCountry name="Afghanistan" />
+    </Country>
+    <Country name="Irkutsk">
+      <AdjacentCountry name="Siberia" />
+      <AdjacentCountry name="Mongolia" />
+      <AdjacentCountry name="Kamchatka" />
+      <AdjacentCountry name="Yakutsk" />
+    </Country>
+    <Country name="Japan">
+      <AdjacentCountry name="Mongolia" />
+      <AdjacentCountry name="Kamchatka" />
+    </Country>
+    <Country name="Kamchatka">
+      <AdjacentCountry name="Alaska" />
+      <AdjacentCountry name="Mongolia" />
+      <AdjacentCountry name="Irkutsk" />
+      <AdjacentCountry name="Yakutsk" />
+      <AdjacentCountry name="Japan" />
+    </Country>
+    <Country name="MiddleEast">
+      <AdjacentCountry name="EastAfrica" />
+      <AdjacentCountry name="SouthernEurope" />
+      <AdjacentCountry name="Egypt" />
+      <AdjacentCountry name="Ukraine" />
+      <AdjacentCountry name="Afghanistan" />
+      <AdjacentCountry name="India" />
+    </Country>
+    <Country name="Mongolia">
+      <AdjacentCountry name="China" />
+      <AdjacentCountry name="Siberia" />
+      <AdjacentCountry name="Irkutsk" />
+      <AdjacentCountry name="Japan" />
+      <AdjacentCountry name="Kamchatka" />
+    </Country>
+    <Country name="Siam">
+      <AdjacentCountry name="China" />
+      <AdjacentCountry name="India" />
+      <AdjacentCountry name="Indonesia" />
+    </Country>
+    <Country name="Siberia">
+      <AdjacentCountry name="Ural" />
+      <AdjacentCountry name="China" />
+      <AdjacentCountry name="Mongolia" />
+      <AdjacentCountry name="Yakutsk" />
+      <AdjacentCountry name="Irkutsk" />
+    </Country>
+    <Country name="Ural">
+      <AdjacentCountry name="China" />
+      <AdjacentCountry name="Ukraine" />
+      <AdjacentCountry name="Afghanistan" />
+      <AdjacentCountry name="Siberia" />
+    </Country>
+    <Country name="Yakutsk">
+      <AdjacentCountry name="Kamchatka" />
+      <AdjacentCountry name="Irkutsk" />
+      <AdjacentCountry name="Siberia" />
+    </Country>
+  </Continent>
+  <Continent name="Oceana" unitValue="2">
+    <Country name="EasternAustralia">
+      <AdjacentCountry name="WesternAustralia" />
+      <AdjacentCountry name="NewGuinea" />
+    </Country>
+    <Country name="Indonesia">
+      <AdjacentCountry name="Siam" />
+      <AdjacentCountry name="NewGuinea" />
+      <AdjacentCountry name="WesternAustralia" />
+    </Country>
+    <Country name="NewGuinea">
+      <AdjacentCountry name="WesternAustralia" />
+      <AdjacentCountry name="Indonesia" />
+      <AdjacentCountry name="EasternAustralia" />
+    </Country>
+    <Country name="WesternAustralia">
+      <AdjacentCountry name="EasternAustralia" />
+      <AdjacentCountry name="NewGuinea" />
+      <AdjacentCountry name="Indonesia" />
+    </Country>
+  </Continent>
+</Risk>

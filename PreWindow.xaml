@@ -1,0 +1,191 @@
+﻿<Window x:Class="Risk.PreWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Risk"
+        mc:Ignorable="d"
+        Title="ریسک"     WindowStyle="None" WindowState="Maximized"  WindowStartupLocation="CenterScreen" >
+    <Window.Resources>
+
+        <Style  TargetType="Button" x:Key="circlebutton">
+            <Setter Property="OverridesDefaultStyle" Value="True"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Template">
+                <Setter.Value>
+
+                    <ControlTemplate TargetType="Button">
+                        <Border Name="border" 
+                            BorderThickness="0"
+                            Padding="4,2" 
+                            BorderBrush="DarkGray" 
+                            CornerRadius="40" 
+                            Background="{TemplateBinding Background}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="border" Property="BorderBrush" Value="White" />
+                                <Setter Property="Effect" >
+                                    <Setter.Value>
+                                        <DropShadowEffect ShadowDepth="6"/>
+                                    </Setter.Value>
+
+                                </Setter>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Effect" >
+                <Setter.Value>
+                    <DropShadowEffect ShadowDepth="2"/>
+                </Setter.Value>
+
+            </Setter>
+            <Setter Property="Cursor" Value="cursor/SC2-hyperlink.cur"></Setter>
+            <Setter Property="BorderThickness" Value="0"></Setter>
+
+        </Style>
+    </Window.Resources>
+    <Window.Background>
+        <ImageBrush ImageSource="image/Background2.jpg" Stretch="UniformToFill"/>
+    </Window.Background>
+
+    <Border   Padding="120,50,120,170" Cursor="cursor/SC2-cursor-protoss.cur" Width="700"   Opacity=".9" VerticalAlignment="Stretch">
+        <Border.Effect>
+            <DropShadowEffect/>
+        </Border.Effect>
+        <Border.Background>
+            <ImageBrush ImageSource="image/candlepaper.png" Stretch="UniformToFill"/>
+        </Border.Background>
+
+
+
+        <Grid>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto"></ColumnDefinition>
+                <ColumnDefinition Width="2*"></ColumnDefinition>
+                <ColumnDefinition Width="auto"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition  Height="auto"></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+
+            </Grid.RowDefinitions>
+
+
+            <Grid Grid.ColumnSpan="3">
+                <Grid.Effect>
+                    <DropShadowEffect/>
+                </Grid.Effect>
+                <Grid.Background>
+                    <ImageBrush ImageSource="image/Background.jpg"/>
+                </Grid.Background>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" ></ColumnDefinition>
+                    <ColumnDefinition Width="auto" ></ColumnDefinition>
+                    <ColumnDefinition Width="100" ></ColumnDefinition>
+                    <ColumnDefinition Width="100" ></ColumnDefinition>
+
+                </Grid.ColumnDefinitions>
+                   <Button Height="60" Width="60" Name="add" Foreground="White" FontWeight="Bold" Padding="5" Grid.Column="0" BorderThickness="0" FontFamily="B Roya" Grid.Row="1" Click="add_Click" Style="{StaticResource circlebutton}">
+               
+                <Button.Background> 
+                    <ImageBrush ImageSource="buttons/plus.png" Stretch="Fill"/>
+
+                </Button.Background>
+            </Button>
+                <ComboBox SelectedIndex="0" Margin="14,0,0,0" Height="100" Width="100" Name="imagelist" Grid.Column="3"  ItemsSource="{Binding AvatarsImg}" Cursor="cursor/SC2-hyperlink.cur">
+
+                    <ComboBox.ItemTemplate>
+                        <DataTemplate>
+                            <WrapPanel Height="80" Width="80">
+                                <Image Height="80" Width="80" Source="{Binding}"></Image>
+                            </WrapPanel>
+                        </DataTemplate>
+                    </ComboBox.ItemTemplate>
+
+                </ComboBox>
+                <TextBox MouseDoubleClick="playername_MouseDoubleClick" MouseUp="playername_MouseDoubleClick"  Padding="5"  VerticalAlignment="Center" Grid.Column="2" Name="playername" FontSize="16" FontFamily="B Nazanin" TextAlignment="Center"></TextBox>
+                <ComboBox Grid.Column="1" VerticalAlignment="Center" Padding="5" Name="colorslist" Margin="0,0,10,0" ItemsSource="{Binding Colors}" SelectedIndex="0" Cursor="cursor/SC2-hyperlink.cur">
+                    <ComboBox.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal"  >
+                                <Rectangle Fill="{Binding }" Width="16" Height="16" Margin="0,2,5,2" />
+
+                            </StackPanel>
+                        </DataTemplate>
+                    </ComboBox.ItemTemplate>
+
+                </ComboBox>
+            </Grid>
+
+
+
+
+
+            <Button  Margin="2" Name="start" Width="60" Height="60" Grid.Column="2" Grid.Row="3" Click="start_Click" Style="{StaticResource circlebutton}">
+
+                <Button.Background>
+                    <ImageBrush ImageSource="buttons/play.png" Stretch="Uniform"/>
+
+                </Button.Background>
+            </Button>
+            <Button Width="60" Height="60"  Grid.Column="0" Grid.Row="3" Click="Button_Click_1"   Margin="40,2,2,2" Style="{StaticResource circlebutton}">
+                <Button.Background>
+                    <ImageBrush ImageSource="buttons/back.png" Stretch="Uniform"/>
+
+                </Button.Background>
+            </Button>
+
+
+            <ItemsControl Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="3" Name="it" ItemsSource="{Binding Player}" >
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <WrapPanel />
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+
+
+                <ItemsControl.ItemTemplate >
+                    <DataTemplate  >
+
+
+                        <Border HorizontalAlignment="Right" Background="#eeffffff" Margin="10,10,10,10"  CornerRadius="10,0,0,10" BorderBrush="{Binding Color ,UpdateSourceTrigger=PropertyChanged}" BorderThickness="2" Width="170"  >
+                            <Border.Effect>
+                                <DropShadowEffect Color="{Binding Color}" ShadowDepth="4" BlurRadius="3"/>
+                            </Border.Effect>
+
+
+
+
+                            <Grid  Height="80" HorizontalAlignment="Right" >
+                                <Grid.ColumnDefinitions>
+
+                                    <ColumnDefinition Width="120" />
+                                    <ColumnDefinition Width="auto"  />
+                                </Grid.ColumnDefinitions>
+
+                                <TextBlock  Grid.Column="0" Text="{Binding Name}" HorizontalAlignment="Stretch" VerticalAlignment="Center" TextAlignment="Right" Padding="8" FontSize="20" Foreground="{Binding Color}" FontFamily="A Amine" />
+
+
+                                <Image Grid.Column="1"   Source="{Binding Avatar }"></Image>
+
+                                     
+
+                            </Grid>
+                        </Border>
+
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+
+
+            </ItemsControl>
+
+        </Grid>
+    </Border>
+</Window>

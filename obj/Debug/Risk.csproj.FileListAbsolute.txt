@@ -1,0 +1,385 @@
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Risk.exe.config
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Risk.exe
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Risk.pdb
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\obj\Debug\Risk.csprojResolveAssemblyReference.cache
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\obj\Debug\MainWindow.g.cs
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\obj\Debug\App.g.cs
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\obj\Debug\Risk_MarkupCompile.cache
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\obj\Debug\Risk_MarkupCompile.lref
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\obj\Debug\MainWindow.baml
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\obj\Debug\Risk.g.resources
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\obj\Debug\Risk.Properties.Resources.resources
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\obj\Debug\Risk.csproj.GenerateResource.Cache
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\obj\Debug\Risk.exe
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\obj\Debug\Risk.pdb
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\obj\Debug\PreWindow.g.cs
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Risklib.dll
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Risklib.pdb
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\obj\Debug\PreWindow.baml
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\obj\Debug\Risk_Content.g.cs
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\image\Background.jpg
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\image\RiskMap.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\image\Paper.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\image\burntpaper.jpg
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\image\bonepaper.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\image\paper2.jpg
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\image\candlepaper.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\image\soldier.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\cards\artillery.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\cards\cavalry.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\cards\infantry.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\avatars\a1.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\avatars\a2.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\avatars\a3.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\avatars\a4.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\avatars\a5.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\avatars\a6.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\avatars\a7.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\buttons\recbutton.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\buttons\back.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\buttons\music.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\buttons\play.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\buttons\rfresh.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\buttons\share.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\buttons\plus.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\font\A.AMINE_WWW.DOWNLOADHA.COM.TTF
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Dice\b1.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Dice\b2.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Dice\b3.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Dice\b4.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Dice\b5.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Dice\b6.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Dice\w1.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Dice\w2.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Dice\w3.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Dice\w4.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Dice\w5.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Dice\w6.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\cursor\SC2-cursor.cur
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\cursor\SC2-cursor-protoss.cur
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\cursor\SC2-hyperlink.cur
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Afghanistan.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Alaska.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Alberta.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Argentina.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Brazil.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\CentralAmerica.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\China.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Congo.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\EastAfrica.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\EasternAustralia.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\EasternUnitedStates.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Egypt.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\GreatBritain.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Greenland.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Iceland.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\India.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Indonesia.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Irkutsk.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Japan.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Kamchatka.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Madagascar.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\MiddleEast.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Mongolia.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\NewGuinea.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\NorthAfrica.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\NorthernEurope.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\NorthwestTerritory.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Ontario.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Peru.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Quebec.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\RiskMap.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\RiskMapColor.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Scandinavia.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Selectable\Afghanistan.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Selectable\Alaska.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Selectable\Alberta.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Selectable\Argentina.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Selectable\Brazil.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Selectable\CentralAmerica.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Selectable\China.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Selectable\Congo.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Selectable\EastAfrica.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Selectable\EasternAustralia.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Selectable\EasternUnitedStates.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Selectable\Egypt.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Selectable\GreatBritain.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Selectable\Greenland.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Selectable\Iceland.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Selectable\India.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Selectable\Indonesia.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Selectable\Irkutsk.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Selectable\Japan.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Selectable\Kamchatka.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Selectable\Madagascar.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Selectable\MiddleEast.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Selectable\Mongolia.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Selectable\NewGuinea.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Selectable\NorthAfrica.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Selectable\NorthernEurope.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Selectable\NorthwestTerritory.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Selectable\Ontario.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Selectable\Peru.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Selectable\Quebec.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Selectable\Scandinavia.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Selectable\Siam.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Selectable\Siberia.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Selectable\SouthAfrica.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Selectable\SouthernEurope.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Selectable\Ukraine.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Selectable\Ural.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Selectable\Venezuela.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Selectable\WesternAustralia.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Selectable\WesternEurope.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Selectable\WesternUnitedStates.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Selectable\Yakutsk.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Siam.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Siberia.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\SouthAfrica.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\SouthernEurope.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Transparent\Afghanistan.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Transparent\Alaska.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Transparent\Alberta.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Transparent\Argentina.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Transparent\Brazil.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Transparent\CentralAmerica.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Transparent\China.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Transparent\Congo.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Transparent\EastAfrica.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Transparent\EasternAustralia.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Transparent\EasternUnitedStates.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Transparent\Egypt.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Transparent\GreatBritain.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Transparent\Greenland.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Transparent\Iceland.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Transparent\India.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Transparent\Indonesia.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Transparent\Irkutsk.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Transparent\Japan.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Transparent\Kamchatka.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Transparent\Madagascar.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Transparent\MiddleEast.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Transparent\Mongolia.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Transparent\NewGuinea.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Transparent\NorthAfrica.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Transparent\NorthernEurope.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Transparent\NorthwestTerritory.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Transparent\Ontario.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Transparent\Peru.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Transparent\Quebec.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Transparent\Scandinavia.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Transparent\Siam.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Transparent\Siberia.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Transparent\SouthAfrica.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Transparent\SouthernEurope.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Transparent\Ukraine.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Transparent\Ural.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Transparent\Venezuela.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Transparent\WesternAustralia.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Transparent\WesternEurope.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Transparent\WesternUnitedStates.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Transparent\Yakutsk.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Ukraine.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Ural.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Venezuela.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\WesternAustralia.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\WesternEurope.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\WesternUnitedStates.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\Export Risk\Yakutsk.png
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\sounds\risk_overture.mp3
+C:\Users\m3d\Source\Workspaces\Risk\mehrdad\Risklib\Risk\bin\Debug\image\background2.jpg
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Afghanistan.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Alaska.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Alberta.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Argentina.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Brazil.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\CentralAmerica.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\China.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Congo.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\EastAfrica.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\EasternAustralia.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\EasternUnitedStates.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Egypt.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\GreatBritain.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Greenland.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Iceland.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\India.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Indonesia.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Irkutsk.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Japan.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Kamchatka.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Madagascar.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\MiddleEast.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Mongolia.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\NewGuinea.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\NorthAfrica.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\NorthernEurope.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\NorthwestTerritory.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Ontario.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Peru.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Quebec.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\RiskMap.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\RiskMapColor.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Scandinavia.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Selectable\Afghanistan.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Selectable\Alaska.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Selectable\Alberta.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Selectable\Argentina.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Selectable\Brazil.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Selectable\CentralAmerica.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Selectable\China.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Selectable\Congo.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Selectable\EastAfrica.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Selectable\EasternAustralia.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Selectable\EasternUnitedStates.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Selectable\Egypt.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Selectable\GreatBritain.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Selectable\Greenland.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Selectable\Iceland.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Selectable\India.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Selectable\Indonesia.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Selectable\Irkutsk.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Selectable\Japan.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Selectable\Kamchatka.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Selectable\Madagascar.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Selectable\MiddleEast.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Selectable\Mongolia.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Selectable\NewGuinea.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Selectable\NorthAfrica.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Selectable\NorthernEurope.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Selectable\NorthwestTerritory.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Selectable\Ontario.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Selectable\Peru.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Selectable\Quebec.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Selectable\Scandinavia.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Selectable\Siam.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Selectable\Siberia.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Selectable\SouthAfrica.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Selectable\SouthernEurope.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Selectable\Ukraine.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Selectable\Ural.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Selectable\Venezuela.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Selectable\WesternAustralia.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Selectable\WesternEurope.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Selectable\WesternUnitedStates.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Selectable\Yakutsk.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Siam.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Siberia.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\SouthAfrica.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\SouthernEurope.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Transparent\Afghanistan.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Transparent\Alaska.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Transparent\Alberta.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Transparent\Argentina.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Transparent\Brazil.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Transparent\CentralAmerica.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Transparent\China.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Transparent\Congo.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Transparent\EastAfrica.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Transparent\EasternAustralia.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Transparent\EasternUnitedStates.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Transparent\Egypt.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Transparent\GreatBritain.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Transparent\Greenland.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Transparent\Iceland.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Transparent\India.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Transparent\Indonesia.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Transparent\Irkutsk.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Transparent\Japan.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Transparent\Kamchatka.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Transparent\Madagascar.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Transparent\MiddleEast.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Transparent\Mongolia.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Transparent\NewGuinea.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Transparent\NorthAfrica.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Transparent\NorthernEurope.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Transparent\NorthwestTerritory.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Transparent\Ontario.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Transparent\Peru.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Transparent\Quebec.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Transparent\Scandinavia.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Transparent\Siam.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Transparent\Siberia.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Transparent\SouthAfrica.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Transparent\SouthernEurope.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Transparent\Ukraine.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Transparent\Ural.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Transparent\Venezuela.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Transparent\WesternAustralia.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Transparent\WesternEurope.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Transparent\WesternUnitedStates.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Transparent\Yakutsk.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Ukraine.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Ural.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Venezuela.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\WesternAustralia.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\WesternEurope.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\WesternUnitedStates.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Export Risk\Yakutsk.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\image\background2.jpg
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\sounds\risk_overture.mp3
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\cards\Artillery.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\cards\Cavalry.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\cards\Infantry.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\font\A.AMINE_WWW.DOWNLOADHA.COM.TTF
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\avatars\a1.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\avatars\a2.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\avatars\a3.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\avatars\a4.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\avatars\a5.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\avatars\a6.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\avatars\a7.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\buttons\recbutton.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\image\Background.jpg
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\image\RiskMap.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\buttons\back.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\buttons\music.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\buttons\play.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\buttons\rfresh.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\buttons\share.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Dice\b1.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Dice\b2.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Dice\b3.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Dice\b4.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Dice\b5.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Dice\b6.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Dice\w1.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Dice\w2.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Dice\w3.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Dice\w4.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Dice\w5.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Dice\w6.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\image\Paper.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\cursor\SC2-cursor.cur
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\cursor\SC2-cursor-protoss.cur
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\image\burntpaper.jpg
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\image\bonepaper.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\image\soldier.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\cursor\SC2-hyperlink.cur
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\image\paper2.jpg
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\image\candlepaper.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\buttons\plus.png
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Risk.exe.config
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Risk.exe
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Risk.pdb
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Risklib.dll
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\Risklib.pdb
+D:\m3d\Risk Project\Risklib\Risk\bin\Debug\ru\Microsoft.QualityTools.Testing.Fakes.resources.dll
+D:\m3d\Risk Project\Risklib\Risk\obj\Debug\Risk.csprojResolveAssemblyReference.cache
+D:\m3d\Risk Project\Risklib\Risk\obj\Debug\MainWindow.g.cs
+D:\m3d\Risk Project\Risklib\Risk\obj\Debug\PreWindow.g.cs
+D:\m3d\Risk Project\Risklib\Risk\obj\Debug\App.g.cs
+D:\m3d\Risk Project\Risklib\Risk\obj\Debug\Risk_Content.g.cs
+D:\m3d\Risk Project\Risklib\Risk\obj\Debug\Risk_MarkupCompile.cache
+D:\m3d\Risk Project\Risklib\Risk\obj\Debug\Risk_MarkupCompile.lref
+D:\m3d\Risk Project\Risklib\Risk\obj\Debug\MainWindow.baml
+D:\m3d\Risk Project\Risklib\Risk\obj\Debug\PreWindow.baml
+D:\m3d\Risk Project\Risklib\Risk\obj\Debug\Risk.g.resources
+D:\m3d\Risk Project\Risklib\Risk\obj\Debug\Risk.Properties.Resources.resources
+D:\m3d\Risk Project\Risklib\Risk\obj\Debug\Risk.csproj.GenerateResource.cache
+D:\m3d\Risk Project\Risklib\Risk\obj\Debug\Risk.csproj.CoreCompileInputs.cache
+D:\m3d\Risk Project\Risklib\Risk\obj\Debug\Risk.csproj.CopyComplete
+D:\m3d\Risk Project\Risklib\Risk\obj\Debug\Risk.exe
+D:\m3d\Risk Project\Risklib\Risk\obj\Debug\Risk.pdb
